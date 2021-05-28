@@ -1,0 +1,194 @@
+body {     
+    background: rgb(121, 107, 107);
+  } 
+@media screen and (min-width: 1551px) {
+    .today-weather-div{left: calc(50% - 250px);top: 40px;}
+    .clock-div{left: 5px;top: 40px;}
+    .searching-city-div{right: 5px;top: 40px;}
+    .main-map-div{ right:5px;top: 100px; }
+    #bg-div{height: 100%;width: 100%;}
+}
+@media screen and (max-width: 1550px) {
+    .today-weather-div{left: calc(50% - 250px);top: 335px;}
+    .clock-div{left: calc(50% - 250px);top: 100px;}
+    .searching-city-div{left: calc(50% - 250px);top: 40px;}
+    .main-map-div{ left: calc(50% - 250px); top: 800px; }
+    #bg-div{height: 200%;width: 200%;}
+}
+    
+/* Today Weather */
+.today-weather-div{ 
+    z-index: 2;
+    font-size: 25px;
+    position: absolute;   
+    height: 450px;
+    width: 500px;
+    background: rgb(90, 90, 90,0.8);
+    color: white;
+    border-radius: 50px;
+}
+
+.temp-p{
+    position: absolute;
+    font-size: 120px;
+    top: 90px;
+    left: 155px;
+}
+
+.weather-icon-p{ 
+    position: absolute;
+    font-size: 30px;
+    top: 230px;
+    left: 300px;
+}
+.humidity-p{
+    position: absolute;
+    top: 300px;
+    left: 35px;
+}
+.droplet-img{
+    height: 45px;
+    width: 45px;
+}
+.humidity-value{
+    position: absolute;
+    top: 5px;
+    left: 40px;
+}
+.wind-p{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+
+}
+.wind-icon{
+    position: absolute;
+    top: 230px;
+    left: 0px;
+}
+.wind-value{
+    position: absolute;
+    width: 100px;
+    top: 295px;
+    left: 70px;
+}
+.max-temp-p{
+    position: absolute;
+    top: 230px;
+    left: 45px;
+}
+.min-temp-p{
+    position: absolute;
+    top: 265px;
+    left: 45px;
+}
+/* Clock */
+.clock-div{
+    font-size: 20px;
+    position: absolute;   
+    height: 225px;
+    width: 500px;
+    background: rgb(90, 90, 90,0.8);
+    color: white;
+    border-radius: 50px;
+    z-index: 2;
+}
+.clock-p{
+    text-align: center;
+    position: absolute;
+    font-size: 110px;
+    top: 0px;
+    left: 50px;
+}
+.date-p{
+    text-align: center;
+    position: absolute;
+    font-size: 50px;
+    top: 150px;
+    left: 235px;
+}
+/* Searching */
+.searching-city-div{
+    font-size: 20px;
+    position: absolute;   
+    height: 50px;
+    width: 500px;
+    background: rgb(90, 90, 90,0.8);
+    color: white;
+    border-radius: 50px;
+    z-index: 2;
+}
+.city-input{
+    position: absolute;
+    top:9px;
+    left: 20px;
+    height: 30px;
+    font-size:14px;
+    background-color: rgb(36, 36, 36,0.5);
+    border:0;
+}
+.country-input{
+    position: absolute;
+    top:9px;
+    left: 200px;
+    height: 30px;
+    font-size:14px;
+    background-color: rgb(36, 36, 36,0.5);
+    border:0;
+}
+.button-city{
+    color:white;
+    position: absolute;
+    left: 380px;
+    top:10px;
+    height: 32.1px;
+    font-size:15px;
+    background-color: rgb(36, 36, 36,0.5);
+    border:0;
+}
+/* MAP */
+.main-map-div{
+    position: absolute;
+    height: 500px;
+    width:500px;
+    z-index: -1000;
+}
+
+
+/* Background */
+#bg-div{    
+background-repeat: no-repeat;
+top:0;
+left:0;
+position: absolute;
+z-index: -2000;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.div-sun{
+
+    background-image: url("img/bg/sun.png") ;
+}
+.div-thunderstorm{
+
+    background-image: url("img/bg/thunderstorm.jpg");
+}
+.div-rain{
+
+    background-image: url("img/bg/rain.jpg");
+}
+.div-snow{
+
+    background-image: url("img/bg/snow.jpg");
+}
+.div-clouds{
+
+    background-image: url("img/bg/clouds.jpg") ;
+}
+.div-clouds-day{
+
+    background-image: url("img/bg/clouds-sun.jpg");
+}
