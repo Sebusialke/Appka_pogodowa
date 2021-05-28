@@ -7,12 +7,12 @@
 ## General info
 Simple react weather app, created in Node.js<br><br>
 ###### Website appearance:
-<img align="center" width="1300" height="450" src="https://github.com/Sebusialke/appka_pogodowa/blob/master/ss1.PNG"/>
+<img align="center" width="1300" height="450" src="https://github.com/Sebusialke/Appka_pogodowa/blob/main/ss1.PNG"/>
 <h6> You can choose the city of your interest:</h6>
-<img align="center" width="1300" height="450" src="https://github.com/Sebusialke/appka_pogodowa/blob/master/ss2.PNG"/>
+<img align="center" width="1300" height="450" src="https://github.com/Sebusialke/Appka_pogodowa/blob/main/ss2.PNG"/>
 <h6> The website is responsive:</h6>
 <p align="center">
-<img width="500" height="800" src="https://github.com/Sebusialke/appka_pogodowa/blob/master/ss3.PNG"/>
+<img width="500" height="800" src="https://github.com/Sebusialke/Appka_pogodowa/blob/main/ss3.PNG"/>
  </p>
 
 ## Technologies
